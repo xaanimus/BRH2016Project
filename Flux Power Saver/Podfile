@@ -6,6 +6,5 @@ target 'Flux Power Saver' do
   use_frameworks!
 
   # Pods for Flux Power Saver
-  pod 'SwiftyJSON', '~> 2.3'
   pod 'Alamofire', '~> 4.0'
 end
