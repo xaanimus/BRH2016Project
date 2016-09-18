@@ -32,4 +32,36 @@
 - [ ] func sendElectricityUsage(amount: ElectricityAmount)
 
 ---
-#BACKEND
+
+# BACKEND
+
+## REST
+- [x] POST /user/new
+  - new user.
+  - basic auth usr and pass
+- [x] POST /login/new
+  - post a new login session
+  - after auth, set session param to sessio id
+  - basic auth usr and pass
+  - return success/failure
+- [x] GET /moneyspent/lastweek
+- [ ] GET /moneyspent/lastday **skip**
+- [x] GET /moneyspent/overtime
+  - return array of money objects
+- [x] GET /moneyspent/compared
+  - get (money spent last week for me) - (money spent last week avg)
+- [x] GET /user/top
+  - get top 5 users
+- [x] POST /usage
+- [ ] create proper format for responses
+  - {ok:true|false, content:{...}}
+- [x] POST /rewards
+
+## USER DATABASE
+- [x] Store users
+- [x] Store (kwh meter reading, timestamp) for each user.
+
+## REWARDS
+- [ ] Periodic (every day):
+  - give rewards points to top three people
+
