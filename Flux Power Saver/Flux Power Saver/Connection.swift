@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import Alamofire
 
 typealias Dollar = Decimal
 
