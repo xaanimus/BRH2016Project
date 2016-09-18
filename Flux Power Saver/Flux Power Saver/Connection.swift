@@ -30,10 +30,10 @@ class Connection {
     }
     
     func moneySpentLastWeek() -> Dollar? {
-        return nil
+        return Dollar.init(floatLiteral: 0.5)
     }
     func moneySpentLastDay() -> Dollar? {
-        return nil
+        return Dollar.init(floatLiteral: 0.5)
     }
     func moneySpentOverTime() -> [NSDate:Dollar] {
         return [:]

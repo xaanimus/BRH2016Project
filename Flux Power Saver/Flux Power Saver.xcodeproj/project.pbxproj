@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0932946A1D8DE2E700B07AC5 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093294691D8DE2E700B07AC5 /* LogInViewController.swift */; };
+		0932946E1D8DE75100B07AC5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932946D1D8DE75100B07AC5 /* SettingsViewController.swift */; };
+		093294701D8DE7B700B07AC5 /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932946F1D8DE7B700B07AC5 /* DevicesViewController.swift */; };
+		093294721D8DF34300B07AC5 /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093294711D8DF34300B07AC5 /* LeaderBoardViewController.swift */; };
 		CC7A37011D8D956200431910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7A37001D8D956200431910 /* AppDelegate.swift */; };
-		CC7A37031D8D956200431910 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7A37021D8D956200431910 /* FirstViewController.swift */; };
-		CC7A37051D8D956200431910 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7A37041D8D956200431910 /* SecondViewController.swift */; };
+		CC7A37031D8D956200431910 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7A37021D8D956200431910 /* HomeViewController.swift */; };
+		CC7A37051D8D956200431910 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7A37041D8D956200431910 /* TipViewController.swift */; };
 		CC7A37081D8D956200431910 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7A37061D8D956200431910 /* Main.storyboard */; };
 		CC7A370A1D8D956200431910 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC7A37091D8D956200431910 /* Assets.xcassets */; };
 		CC7A370D1D8D956200431910 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7A370B1D8D956200431910 /* LaunchScreen.storyboard */; };
@@ -17,10 +21,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		093294691D8DE2E700B07AC5 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		0932946D1D8DE75100B07AC5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		0932946F1D8DE7B700B07AC5 /* DevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
+		093294711D8DF34300B07AC5 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
 		CC7A36FD1D8D956200431910 /* Flux Power Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flux Power Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7A37001D8D956200431910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		CC7A37021D8D956200431910 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		CC7A37041D8D956200431910 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		CC7A37021D8D956200431910 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		CC7A37041D8D956200431910 /* TipViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipViewController.swift; sourceTree = "<group>"; };
 		CC7A37071D8D956200431910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC7A37091D8D956200431910 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC7A370C1D8D956200431910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,11 +66,15 @@
 		CC7A36FF1D8D956200431910 /* Flux Power Saver */ = {
 			isa = PBXGroup;
 			children = (
+				0932946D1D8DE75100B07AC5 /* SettingsViewController.swift */,
 				CC7A37001D8D956200431910 /* AppDelegate.swift */,
-				CC7A37021D8D956200431910 /* FirstViewController.swift */,
-				CC7A37041D8D956200431910 /* SecondViewController.swift */,
+				CC7A37021D8D956200431910 /* HomeViewController.swift */,
+				CC7A37041D8D956200431910 /* TipViewController.swift */,
+				093294691D8DE2E700B07AC5 /* LogInViewController.swift */,
 				CC7A37141D8D979C00431910 /* Connection.swift */,
 				CC7A37061D8D956200431910 /* Main.storyboard */,
+				093294711D8DF34300B07AC5 /* LeaderBoardViewController.swift */,
+				0932946F1D8DE7B700B07AC5 /* DevicesViewController.swift */,
 				CC7A37091D8D956200431910 /* Assets.xcassets */,
 				CC7A370B1D8D956200431910 /* LaunchScreen.storyboard */,
 				CC7A370E1D8D956200431910 /* Info.plist */,
@@ -143,10 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC7A37051D8D956200431910 /* SecondViewController.swift in Sources */,
+				CC7A37051D8D956200431910 /* TipViewController.swift in Sources */,
+				093294701D8DE7B700B07AC5 /* DevicesViewController.swift in Sources */,
 				CC7A37011D8D956200431910 /* AppDelegate.swift in Sources */,
-				CC7A37031D8D956200431910 /* FirstViewController.swift in Sources */,
+				0932946A1D8DE2E700B07AC5 /* LogInViewController.swift in Sources */,
+				CC7A37031D8D956200431910 /* HomeViewController.swift in Sources */,
 				CC7A37151D8D979C00431910 /* Connection.swift in Sources */,
+				093294721D8DF34300B07AC5 /* LeaderBoardViewController.swift in Sources */,
+				0932946E1D8DE75100B07AC5 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,6 +324,7 @@
 				CC7A37131D8D956200431910 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
