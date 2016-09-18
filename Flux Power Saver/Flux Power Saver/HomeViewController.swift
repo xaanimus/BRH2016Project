@@ -8,11 +8,17 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class HomeViewController: UIViewController {
 
+    @IBOutlet weak var helloUser: UILabel?
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        self.helloUser?.adjustsFontSizeToFitWidth = true
+        self.helloUser?.numberOfLines = 1
+        //self.helloUser?.text = "Hello, userName"
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
