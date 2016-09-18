@@ -1,0 +1,6 @@
+framework module Pods_Flux_Power_Saver {
+  umbrella header "Pods-Flux Power Saver-umbrella.h"
+
+  export *
+  module * { export * }
+}

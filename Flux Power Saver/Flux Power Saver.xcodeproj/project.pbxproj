@@ -11,6 +11,7 @@
 		0932946E1D8DE75100B07AC5 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932946D1D8DE75100B07AC5 /* SettingsViewController.swift */; };
 		093294701D8DE7B700B07AC5 /* DevicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0932946F1D8DE7B700B07AC5 /* DevicesViewController.swift */; };
 		093294721D8DF34300B07AC5 /* LeaderBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 093294711D8DF34300B07AC5 /* LeaderBoardViewController.swift */; };
+		AF9ED4E9AC0A87F0154F2E5A /* Pods_Flux_Power_Saver.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBC058E8142AC734954C46D5 /* Pods_Flux_Power_Saver.framework */; };
 		CC7A37011D8D956200431910 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7A37001D8D956200431910 /* AppDelegate.swift */; };
 		CC7A37031D8D956200431910 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7A37021D8D956200431910 /* HomeViewController.swift */; };
 		CC7A37051D8D956200431910 /* TipViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7A37041D8D956200431910 /* TipViewController.swift */; };
@@ -25,6 +26,8 @@
 		0932946D1D8DE75100B07AC5 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		0932946F1D8DE7B700B07AC5 /* DevicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevicesViewController.swift; sourceTree = "<group>"; };
 		093294711D8DF34300B07AC5 /* LeaderBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LeaderBoardViewController.swift; sourceTree = "<group>"; };
+		AE760E8F5DA67D7229B07B38 /* Pods-Flux Power Saver.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flux Power Saver.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Flux Power Saver/Pods-Flux Power Saver.debug.xcconfig"; sourceTree = "<group>"; };
+		CB09E45DA8C9A10104FD41DA /* Pods-Flux Power Saver.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Flux Power Saver.release.xcconfig"; path = "Pods/Target Support Files/Pods-Flux Power Saver/Pods-Flux Power Saver.release.xcconfig"; sourceTree = "<group>"; };
 		CC7A36FD1D8D956200431910 /* Flux Power Saver.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Flux Power Saver.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7A37001D8D956200431910 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC7A37021D8D956200431910 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -34,6 +37,7 @@
 		CC7A370C1D8D956200431910 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CC7A370E1D8D956200431910 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC7A37141D8D979C00431910 /* Connection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Connection.swift; sourceTree = "<group>"; };
+		FBC058E8142AC734954C46D5 /* Pods_Flux_Power_Saver.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Flux_Power_Saver.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF9ED4E9AC0A87F0154F2E5A /* Pods_Flux_Power_Saver.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6EC14E2715E36CED763ED96E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBC058E8142AC734954C46D5 /* Pods_Flux_Power_Saver.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CC7A36F41D8D956200431910 = {
 			isa = PBXGroup;
 			children = (
 				CC7A36FF1D8D956200431910 /* Flux Power Saver */,
 				CC7A36FE1D8D956200431910 /* Products */,
+				F2109CC0F2B6410BFC13B45A /* Pods */,
+				6EC14E2715E36CED763ED96E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +97,15 @@
 			path = "Flux Power Saver";
 			sourceTree = "<group>";
 		};
+		F2109CC0F2B6410BFC13B45A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE760E8F5DA67D7229B07B38 /* Pods-Flux Power Saver.debug.xcconfig */,
+				CB09E45DA8C9A10104FD41DA /* Pods-Flux Power Saver.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -89,9 +113,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CC7A37111D8D956200431910 /* Build configuration list for PBXNativeTarget "Flux Power Saver" */;
 			buildPhases = (
+				A4C5795C0946ACDB4B1D5D6D /* [CP] Check Pods Manifest.lock */,
 				CC7A36F91D8D956200431910 /* Sources */,
 				CC7A36FA1D8D956200431910 /* Frameworks */,
 				CC7A36FB1D8D956200431910 /* Resources */,
+				58D41828E518860548A767EA /* [CP] Embed Pods Frameworks */,
+				59798491E8A842225210C5C2 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,6 +176,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		58D41828E518860548A767EA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flux Power Saver/Pods-Flux Power Saver-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59798491E8A842225210C5C2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Flux Power Saver/Pods-Flux Power Saver-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C5795C0946ACDB4B1D5D6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CC7A36F91D8D956200431910 /* Sources */ = {
@@ -281,6 +356,7 @@
 		};
 		CC7A37121D8D956200431910 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE760E8F5DA67D7229B07B38 /* Pods-Flux Power Saver.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TD73A242XE;
@@ -294,6 +370,7 @@
 		};
 		CC7A37131D8D956200431910 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB09E45DA8C9A10104FD41DA /* Pods-Flux Power Saver.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = TD73A242XE;
