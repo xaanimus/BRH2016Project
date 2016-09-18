@@ -10,13 +10,9 @@ import UIKit
 
 class LogInViewController: UIViewController, UITextFieldDelegate {
 
-    @IBOutlet weak var signLabel: UILabel!
-    @IBOutlet weak var userName: UITextField!
-    @IBOutlet weak var passWord: UITextField!
-    @IBOutlet weak var signButton: UIButton!
+    @IBOutlet weak var userNameField: UITextField!
+    @IBOutlet weak var passWordField: UITextField!
     
-    var userNameString = "a"
-    var passWordString = "b"
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -36,30 +32,25 @@ class LogInViewController: UIViewController, UITextFieldDelegate {
      return true
      }
      
-    @IBAction func getSignInData(_ sender: AnyObject) {
-        userNameString = userName.text!
-        passWordString = passWord.text!
-        self.performSegue(withIdentifier: "segueToHome", sender: self)
-        
-        
+    @IBAction func signIn(_ sender: AnyObject) {
+        let appDelegate = UIApplication.shared.delegate as! AppDelegate
+
+        Connection.with(username: "jsmith10", password: "secret") { cr in
+            switch cr {
+            case .ok(let connection): connection.moneySpentLastWeek() { dollar in
+                print("dollar:\(dollar)")
+                }
+            case _ :break
+            }
+        }
+
+        //self.performSegue(withIdentifier: "segueToHome", sender: self)
     }
     
-     
-    
-
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-        //if segue.identifier == "segueToHome"{
-            //segue.destination.r
-    //
-        
         let homeView = segue.destination as! HomeViewController
-        homeView.helloUser?.text = userNameString
-        
-        //}
-      }
+    }
  
     
 }
