@@ -22,14 +22,14 @@
 ## Survey (might skip this)
 
 ## Connection Functionality
-- [ ] init() throws
-- [ ] type Dollar
-- [ ] func moneySpentLastWeek() -> Dollar?
-- [ ] func moneySpentLastDay() -> Dollar?
-- [ ] func moneySpentOverTime() -> [Time:Dollar]
-- [ ] func moneySpentMoreThanAverage() -> Dollar?
-- [ ] func topUsers() -> [LeaderboardUser]
-- [ ] func sendElectricityUsage(amount: ElectricityAmount)
+- [x] init() throws
+- [x] type Dollar
+- [x] func moneySpentLastWeek() -> Dollar?
+- [x] func moneySpentLastDay() -> Dollar?
+- [x] func moneySpentOverTime() -> [Time:Dollar]
+- [x] func moneySpentMoreThanAverage() -> Dollar?
+- [x] func topUsers() -> [LeaderboardUser]
+- [x] func sendElectricityUsage(amount: ElectricityAmount)
 
 ---
 
@@ -53,7 +53,7 @@
 - [x] GET /user/top
   - get top 5 users
 - [x] POST /usage
-- [ ] create proper format for responses
+- [x] create proper format for responses
   - {ok:true|false, content:{...}}
 - [x] POST /rewards
 
